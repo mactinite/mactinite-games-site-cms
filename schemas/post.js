@@ -43,9 +43,16 @@ export default {
       type: 'datetime',
     },
     {
-      name: 'body',
-      title: 'Body',
-      type: 'blockContent',
+      name: 'summary',
+      title: 'Summary',
+      type: 'string',
+      validation: Rule => Rule.required().min(10).max(80)
+    },
+    {
+      type: "markdown",
+      description: "A Github flavored markdown field with image uploading",
+      name: "body",
+      title: "Body"
     },
   ],
 
