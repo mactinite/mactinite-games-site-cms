@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "mactinite-games-site"
-  },
   "api": {
     "projectId": "ef83jjfc",
     "dataset": "production"
+  },
+  "project": {
+    "name": "mactinite-games-site"
   },
   "plugins": [
     "@sanity/base",
