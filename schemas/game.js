@@ -8,6 +8,16 @@ export default {
         title: 'Title',
         type: 'string',
       },
+      { 
+        name: 'summary',
+        title: "Summary",
+        type: "string",
+      },
+      {
+        name: 'link',
+        title: 'Link',
+        type: 'url',
+      },
       {
         name: 'slug',
         title: 'Slug',
