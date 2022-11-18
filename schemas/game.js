@@ -23,7 +23,7 @@ export default {
         title: 'Slug',
         type: 'slug',
         options: {
-          source: 'name',
+          source: 'title',
           maxLength: 96,
         },
       },
@@ -47,17 +47,10 @@ export default {
         ],
       },
       {
-        name: 'details',
-        title: 'Details',
-        type: 'array',
-        of: [
-          {
-            title: 'Block',
-            type: 'block',
-            styles: [{title: 'Normal', value: 'normal'}],
-            lists: [],
-          },
-        ],
+        type: "markdown",
+        description: "A Github flavored markdown field with image uploading",
+        name: "details",
+        title: "Details"
       },
     ],
     preview: {
